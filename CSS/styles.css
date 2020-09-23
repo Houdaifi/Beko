@@ -1,0 +1,99 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #0083be;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 2;
+}
+h2{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    line-height: 2;
+}
+p{
+    text-align: center;
+    line-height: 2;
+    color: gray;
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.carousel-image{
+    width: 100%;
+    height: 500px;
+}
+#fridges{
+    margin: 0 auto;
+    text-align: center;
+    padding: 3% 1%;
+}
+#fridges p{
+    margin: 0 auto;
+    width: 50%;
+}
+
+    /* Informations */
+
+#informations{
+    padding: 50px 0px;
+    background-color: #0083be;
+    text-align: center;
+}
+.information-column{
+    padding: 10px 30px;
+}
+.card-info{
+    width: 90%;
+}
+.card-img-top{
+   margin: 2%;
+}
+.btn{
+    background-color: #0083be;
+ }
+.btn-outline-success{
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+    /* Guide */
+
+#guide{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5% 0;
+}
+#guide p{
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+/* Avis */
+#avis{
+    text-align: center;
+    background-color: #0083be ;
+}
+#avis .carousel-item{
+    padding: 3% 15%; 
+}
+#avis p{
+    color: #ffffff;
+}
+
+/* Footer */
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin:  15px;
+}
+#footer a{
+    color:  #0083be;
+}
