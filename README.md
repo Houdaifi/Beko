@@ -1,2 +1,2 @@
 # Beko
-A try to remake Beko famous company website
+A try to remake Beko famous company website :)
