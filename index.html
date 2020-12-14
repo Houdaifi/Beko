@@ -4,13 +4,15 @@
         <title>Beko</title>
 
         <!-- Installing Bootsrap -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
         <!-- Implemt css -->
         <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="stylesheet" href="CSS/odometer-default.css" />
+
+
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -37,9 +39,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                   </li>
@@ -102,7 +104,7 @@
 
         <!-- Fridges Photos -->
 
-        <section id="fridges">
+        <section id="fridges" class="reveal">
             <div>
                 <h1>The Refrigeration Range</h1>
                 <p>Enjoy the food you love with the UK’s largest range of quality fridges and freezers. Offering the latest technologies, our refrigeration range helps you save effort every day. Whether you need a fridge that helps keep food fresh for up to 30 days or need a freezer which works in your garage, discover the perfect appliance for you in our fridge and freezer range. Since 2007, all Beko refrigeration products have been manufactured using our products.</p>
@@ -110,7 +112,7 @@
             
         </section>
 
-        <section id="informations">
+        <section id="informations" class="">
 
             <div style="margin: 0 2%;" class="row">
 
@@ -120,20 +122,20 @@
                   <div class="card-body">
                     <h4 class="card-title">Screen Door</h4>
                     <p class="card-text">Awesome screen door.</p>
-                    <a href="#" class="btn btn-primary">See Product</a>
+                      <p href="#" style="color: inherit" class="o"> <span class="btn btn-primary odometer" data-interval="5000"> </span> Commands!</p>
                   </div>
                 </div>
               </div>
 
               <div class="information-column col-lg-3 col-md-6">
-              <div class="card-info card">
-                <img class="card-img-top" src="images/one-door.png" alt="One door image">
-                <div class="card-body">
-                  <h4 class="card-title">One Door</h4>
-                  <p class="card-text">Traditional 1  door fridge.</p>
-                  <a href="#" class="btn btn-primary">See Product</a>
-                </div>
-              </div>
+                  <div class="card-info card">
+                    <img class="card-img-top" src="images/one-door.png" alt="One door image">
+                    <div class="card-body">
+                      <h4 class="card-title">One Door</h4>
+                      <p class="card-text">Traditional 1  door fridge.</p>
+                      <a href="#" class="btn btn-primary">0 Commands</a>
+                    </div>
+                  </div>
             </div>
 
             <div class="information-column col-lg-3 col-md-6">
@@ -141,8 +143,8 @@
                   <img class="card-img-top" src="images/american-stye.png" alt="American image">
                   <div class="card-body">
                     <h4 class="card-title">American Style</h4>
-                    <p class="card-text">American Stytle 2 doors.</p>
-                    <a href="#" class="btn btn-primary">See Product</a>
+                    <p class="card-text">American Style 2 doors.</p>
+                    <a href="#" class="btn btn-primary">0 Commands</a>
                   </div>
                 </div>
               </div>
@@ -153,22 +155,21 @@
                   <div class="card-body">
                     <h4 class="card-title">Multi-door</h4>
                     <p class="card-text">Awesome 2 doors fridge.</p>
-                    <a href="#" class="btn btn-primary">See Product</a>
+                    <a href="#" class="btn btn-primary">0 Commands</a>
                   </div>
                 </div>
               </div>
-
 
             </div>
 
         </section>
 
-        <section id="guide">
+        <section id="guide" class="reveal">
             <div>
                 <h1>Refrigeration Buying Guide</h1>
                 <p>Whether you have a small kitchen, a big kitchen, or are after the latest technologies, our refrigeration buying guide will help you find the best model from our range of fridges and freezers to help you enjoy the food you love every day.</p>
                 <br>    
-                <button type="button" class="btn btn-primary">View Refrigeration Buying Guide</button>
+                <button type="button" class="btn btn-primary" id="btn">View Refrigeration Buying Guide</button>
             </div>
             
         </section>
@@ -179,7 +180,7 @@
             
             <div>
 
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <h2>“Good space and keeps food fresh for longer. Very impressed with this model.”</h2>
@@ -215,4 +216,8 @@
         </footer>
 
     </body>
+
+    <script src="JS/js.js"></script>
+    <script src="JS/odometer.js"></script>
+
 </html>
