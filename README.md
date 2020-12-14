@@ -1,5 +1,5 @@
 # Beko<br/>
-A try to remake Beko famous company website :)<br/>
+Beko famous company website Clone :)<br/>
 ## Technology Used<br/>
 * *HTML*<br/> 
 * *CSS*<br/>
